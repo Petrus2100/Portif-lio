@@ -267,6 +267,19 @@ span.second-span { color: green; }
     border-radius: 50%;
 }
 
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column; /* Coloca a imagem em cima e o texto embaixo */
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .about-img img {
+        width: 100%; /* Ou um valor menor se preferir */
+        margin-bottom: 2rem;
+    }
+}
+
 .about-content h2{
     text-align: left;
     color: white;
@@ -669,3 +682,29 @@ div a { text-decoration: none; color: #1d1c1c; }
     margin-top: 5px;
     cursor: pointer;
 }
+
+/* --- Desktop Settings --- */
+.contact-mobile {
+    display: none; 
+}
+
+.menu-toggle {
+    display: none; 
+}
+
+@media (max-width: 900px) {
+    .contact-btn {
+        display: none; 
+    }
+
+    .contact-mobile {
+        display: block; 
+        color: #ff4d4d; 
+        font-weight: bold;
+    }
+
+    .menu-toggle {
+        display: flex; 
+    }
+}
+
