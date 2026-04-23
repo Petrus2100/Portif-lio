@@ -263,7 +263,6 @@ span.second-span { color: green; }
 .about-img img{
     position: relative;
     width: 550px;
-    box-shadow: 0 0 25px white, 0 0 50px white;
     border-radius: 50%;
 }
 
